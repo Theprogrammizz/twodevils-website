@@ -1,0 +1,445 @@
+@media only screen and (max-width: 400px) {
+
+    .navbar {
+        width: 90%;
+        padding: 15px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 5px;
+        overflow: hidden;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #fff;
+        color: #333;
+        font-weight: 500;
+        padding: 5px 10px;
+        font-family: "Oswald", sans-serif;
+        font-size: 15px;
+    }
+
+    .content img {
+        height: auto;
+        width: 250px;
+    }
+
+    .mute-button {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        background-color: #fff;
+        color: #333;
+        border: none;
+        padding: 5px 20px;
+        font-size: 15px;
+        cursor: pointer;
+        z-index: 1;
+        font-family: "Oswald", sans-serif;
+        font-weight: 500;
+        transition: 0.2s;
+        text-transform: uppercase;
+    }
+
+    .banner .tip {
+        position: absolute;
+        bottom: 40px;
+        color: #fffbfb;
+        border: none;
+        font-size: 15px;
+        z-index: 1;
+        font-family: "Oswald", sans-serif;
+        margin: 0 0 5px 10px;
+
+    }
+
+    .main {
+        background-color: black;
+        color: #fff;
+        padding: 30px 20px;
+    }
+
+    .featured-games {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .game {
+        margin-right: 0px;
+    }
+
+    #join-us {
+        padding: 20px 30px;
+        margin: 20px;
+    }
+
+    .game .img {
+        width: auto;
+    }
+    /* ----------------------------------------------- */
+    .intro, .team{
+        margin: 30px 40px;
+    }
+    .founders{
+        margin: 30px 30px;
+    }
+    /* .admin1, .admin2{
+        margin: 10px;
+    } */
+    .admin1 h4{
+        font-size: 14px;
+    }
+    .admin2 h4{
+        font-size: 14px;
+    }
+    .imgg{
+        height: 85px;
+        width: 85px;
+    }
+    .imgg2{
+        height: 85px;
+        width: 85px;
+    }
+    .images{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .navbar ul li {
+        margin: 3px;
+    }
+
+    .game,
+    .game1 {
+        width: 302px;
+    }
+
+    .game .img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .game1 .img2 {
+        width: 260px;
+        height: 260px;
+    }
+    .about-us{
+        padding: 20px;
+    }
+    .about-us p{
+        margin-top: 20px;
+    }
+    #join-us{
+        margin: 20px;
+    }
+    /* ----------------------------------------------- */
+    .intro, .team{
+        margin: 30px 40px;
+    }
+    .founders{
+        margin: 30px 30px;
+    }
+    /* .admin1, .admin2{
+        margin: 10px;
+    } */
+    .admin1 h4{
+        font-size: 14px;
+    }
+    .admin2 h4{
+        font-size: 14px;
+    }
+    .imgg{
+        height: 85px;
+        width: 85px;
+    }
+    .imgg2{
+        height: 85px;
+        width: 85px;
+    }
+    .images{
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 499px) {
+    .navbar ul li {
+        margin: 2px;
+    }
+
+    .navbar ul li a {
+        padding: 8px 10px;
+        font-size: 17px;
+    }
+
+    .featured-games {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .main {
+        background-color: black;
+        color: #fff;
+        padding: 30px 20px;
+    }
+
+    .game,
+    .game1 {
+        width: 350px;
+        margin-right: 0px;
+    }
+
+    .game .img {
+        width: 305px;
+        height: 305px;
+    }
+
+    .game1 .img2 {
+        width: 305px;
+        height: 305px;
+    }
+
+    #join-us {
+        padding: 20px 30px;
+        margin: 30px;
+    }
+    .about-us{
+        padding: 20px 40px;
+    }
+    .about-us p{
+        margin-top: 20px;
+    }
+    /* ----------------------------------------------- */
+    .intro, .team{
+        margin: 30px 40px;
+    }
+    .founders{
+        margin: 30px 30px;
+    }
+    /* .admin1, .admin2{
+        margin: 10px;
+    } */
+    .admin1 h4{
+        font-size: 14px;
+    }
+    .admin2 h4{
+        font-size: 14px;
+    }
+    .imgg{
+        height: 85px;
+        width: 85px;
+    }
+    .imgg2{
+        height: 85px;
+        width: 85px;
+    }
+    .images{
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+    .navbar ul li {
+        margin: 5px;
+    }
+
+    .navbar {
+        width: 90%;
+        padding: 15px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar ul li a {
+        padding: 8px 10px;
+        font-size: 17px;
+    }
+
+    .featured-games {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .main {
+        background-color: black;
+        color: #fff;
+        padding: 30px 20px;
+    }
+
+    .game,
+    .game1 {
+        width: 460px;
+        margin-right: 0px;
+    }
+
+    .game .img {
+        width: 415px;
+        height: 415px;
+    }
+
+    .game1 .img2 {
+        width: 415px;
+        height: 414px;
+    }
+    #join-us {
+        padding: 20px 30px;
+        margin: 40px;
+    }
+    .about-us{
+        padding: 20px 40px;
+    }
+    .about-us p{
+        margin-top: 20px;
+    }
+    /* ----------------------------------------------- */
+    .intro, .team{
+        margin: 30px 40px;
+    }
+    .founders{
+        margin: 30px 30px;
+    }
+    /* .admin1, .admin2{
+        margin: 10px;
+    } */
+    .admin1 h4{
+        font-size: 14px;
+    }
+    .admin2 h4{
+        font-size: 14px;
+    }
+    .imgg{
+        height: 85px;
+        width: 85px;
+    }
+    .imgg2{
+        height: 85px;
+        width: 85px;
+    }
+    .images{
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+     .navbar ul li {
+        margin: 8px;
+    }
+
+    .navbar {
+        width: 90%;
+        padding: 15px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar ul li a {
+        padding: 8px 10px;
+        font-size: 19px;
+    }
+    .main {
+        background-color: black;
+        color: #fff;
+        padding: 30px 25px;
+    }
+    .about-us{
+        padding: 20px 40px;
+    }
+    .about-us p{
+        margin-top: 20px;
+    }
+    .game,
+    .game1 {
+        width: 270px;
+        margin-right: px;
+    }
+    .game .img, 
+    .game1 .img2 {
+        width: 225px;
+        height: 225px;
+    }
+    #join-us {
+        padding: 20px 30px;
+        margin: 40px;
+    }
+    .img2 h3 {
+    font-size: 25px;
+}
+    .img h3 {
+    font-size: 25px;
+}
+/* ----------------------------------------------- */
+.intro, .team{
+    margin: 30px 40px;
+}
+.founders{
+    margin: 30px 30px;
+}
+/* .admin1, .admin2{
+    margin: 10px;
+} */
+.admin1 h4{
+    font-size: 14px;
+}
+.admin2 h4{
+    font-size: 14px;
+}
+.imgg{
+    height: 85px;
+    width: 85px;
+}
+.imgg2{
+    height: 85px;
+    width: 85px;
+}
+.images{
+    justify-content: center;
+}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1000px){
+    /* ----------------------------------------------- */
+    .intro, .team{
+        margin: 30px 100px;
+    }
+    .founders{
+        margin: 30px 100px;
+    }
+    /* .admin1, .admin2{
+        margin: 10px;
+    } */
+    .admin1 h4{
+        font-size: 14px;
+    }
+    .admin2 h4{
+        font-size: 14px;
+    }
+    .imgg{
+        height: 85px;
+        width: 85px;
+    }
+    .imgg2{
+        height: 85px;
+        width: 85px;
+    }
+    .images{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+/* --------------navbar----------------- */
+
+.navbar {
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #333;
+    font-weight: 500;
+    padding: 20px;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+
+li a:hover {
+
+    transition: 0.2s;
+}
+
+.navbar a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* ------------header--------------- */
+header {
+    text-align: start;
+    padding: 10px 20px;
+    background-color: #444;
+}
+
+header h1 {
+    margin: 0px;
+    font-size: 2.5em;
+    font-family: "Oswald", sans-serif;
+}
+
+header p {
+    font-size: 1.2em;
+    font-family: "Oswald", sans-serif;
+}
+
+
+/* ------------------section------------- */
+.intro {
+    margin: 50px 300px;
+}
+
+.intro h2 {
+    font-family: "Oswald", sans-serif;
+    margin: 20px 0px;
+}
+
+.intro p {
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* *****Team****** */
+.team {
+    margin: 50px 300px;
+}
+
+.team h2 {
+    margin: 20px 0px;
+    font-family: "Oswald", sans-serif;
+}
+
+.team p {
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* ****Founder***** */
+.founders {
+    margin: 0px 280px;
+}
+
+.founders h2 {
+    font-family: "Oswald", sans-serif;
+    margin: 20px 0px;
+}
+
+.imgg {
+
+    background: url(Assests/black-bandit.jpeg);
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.imgg2 {
+
+    background: url(Assests/brokken.jpg);
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #333;
+    padding: 15px;
+    justify-content: center;
+}
+
+.admin1 {
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.admin1 h4 {
+    margin-bottom: 3px;
+}
+
+.admin1 p {
+    font-size: 11px;
+}
+
+.admin2 {
+    margin: 20px;
+    text-align: center;
+}
+
+.admin2 h4 {
+    margin-bottom: 3px;
+}
+
+.admin2 p {
+    font-size: 11px;
+}
+
+/* ------------------Join US----------------- */
+
+#join-us {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 100px;
+    margin: 50px;
+}
+
+#join-us h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#join-us p {
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* ------------------footer------------------ */
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #292929;
+    height: 50px;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.yt i {
+    color: #FFF;
+    font-size: 30px;
+}
+
+.itch i {
+    color: #FFF;
+    font-size: 29px;
+}
+
+.social i:hover {
+    color: #bebebe;
+}
+
+.m-footer {
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-footer img {
+    width: 150px;
+}
+
+footer {
+    height: 25px;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    color: #696969;
+}
+
+footer p {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 10px;
+}
+
+/* Animation On Scroll */
+.animate {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1.5s ease-in-out; /* increased duration to 1.5 seconds */
+  }
+  
+  .animate.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
